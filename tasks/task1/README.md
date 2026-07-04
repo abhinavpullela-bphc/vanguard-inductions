@@ -1,5 +1,7 @@
 # Task 1: The Art of Reach (3DOF Arm & Inverse Kinematics)
 
+**Points: 50** · **Deadline: 31st July, 11:59 PM**
+
 ## The Problem
 
 Our rover has finally arrived at the target extraction site, and the high-priority
@@ -17,8 +19,8 @@ rotate to move the gripper from its resting position to a specific (X, Y, Z) coo
 
 ## What You Need To Do
 
-* **Build the Blueprint** — Write a URDF or Xacro file to construct a 3DOF robotic arm:
-  a base, three distinct links, and three rotating joints.
+* **Build the Blueprint** — Write a URDF file to construct a 3DOF robotic arm: a base,
+  three distinct links, and three rotating joints. (Use plain URDF, not Xacro.)
 * **Bring it to Life** — Launch your robotic arm inside Gazebo Classic or RViz2 so we can
   see it in 3D space.
 * **Solve the Puzzle (Inverse Kinematics)** — Given the 3D coordinates of the target rock,
@@ -27,10 +29,16 @@ rotate to move the gripper from its resting position to a specific (X, Y, Z) coo
 * **Make the Move** — Write a ROS 2 node that publishes the calculated joint trajectories,
   moving the arm from Point A (Home) to Point B (Target).
 
+Also, don't just get the code to run — actually learn how ROS 2 and Gazebo work
+underneath it: how nodes communicate over topics, how a URDF becomes a simulated body, how
+it all gets wired together through a launch file. That understanding is what matters and
+what will come up again in the upcoming round.
+
 ## Helpful Resources
 
+* [ROS 2 Documentation (Humble)](https://docs.ros.org/en/humble/index.html)
+* [Gazebo Classic Tutorials](https://classic.gazebosim.org/tutorials)
 * [URDF Tutorials (ROS 2 docs)](https://docs.ros.org/en/humble/Tutorials/Intermediate/URDF/URDF-Main.html)
-* [Xacro basics](http://wiki.ros.org/xacro)
 * [MoveIt 2 Getting Started](https://moveit.picknik.ai/humble/doc/tutorials/getting_started/getting_started.html)
 * [Inverse Kinematics — concept primer](https://en.wikipedia.org/wiki/Inverse_kinematics)
 
@@ -48,7 +56,7 @@ the container) — so there's nothing extra to copy over before you commit.
 
 Place everything below directly in this folder (`tasks/task1/`):
 
-1. A complete ROS 2 package containing your URDF/Xacro files, launch files, and movement
+1. A complete ROS 2 package containing your URDF files, launch files, and movement
    script.
 2. A short screen recording (or a few clear screenshots) of your simulated arm
    successfully moving to the target point inside your noVNC browser window.

@@ -5,7 +5,13 @@ progressive tasks** covering robotic arm kinematics, sensor filtering, and compu
 the core building blocks of our rover's autonomy stack.
 
 You are not expected to finish everything. Prioritize learning over completion — this
-knowledge carries directly into later rounds.
+knowledge carries directly into later round.
+
+---
+
+## DEADLINE: 31st July, 11:59 PM
+
+**No submissions will be accepted after this time.** Plan accordingly.
 
 ---
 
@@ -19,14 +25,21 @@ the simulator, and submitting a Pull Request. Everything below assumes you've do
 
 ## The Tasks
 
-| Task | What you'll build | Folder |
-|---|---|---|
-| **Task 1** — The Art of Reach | A 3DOF robotic arm + Inverse Kinematics in ROS 2/Gazebo | [`tasks/task1`](tasks/task1) |
-| **Task 2** — Taming the Noise | A 1D Kalman Filter from scratch in Python | [`tasks/task2`](tasks/task2) |
-| **Task 3** — Panorama or Bust | An image-stitching pipeline with OpenCV | [`tasks/task3`](tasks/task3) |
+| Task | What you'll build | Points | Folder |
+|---|---|---|---|
+| **Task 1** — The Art of Reach | A 3DOF robotic arm + Inverse Kinematics in ROS 2/Gazebo | **50** | [`tasks/task1`](tasks/task1) |
+| **Task 2** — Taming the Noise | A 1D Kalman Filter from scratch in Python | **25** | [`tasks/task2`](tasks/task2) |
+| **Task 3** — Panorama or Bust | An image-stitching pipeline with OpenCV | **25** | [`tasks/task3`](tasks/task3) |
 
 Each task folder has its own `README.md` with the full problem statement, requirements,
 and deliverables. That's also exactly where you'll drop your submission — see below.
+
+**A note on resources:** each task README links a few curated resources to get you
+started. Beyond those, the best resource available to you is honestly an AI/LLM model
+(Gemini, Claude, etc.) — you're free to use them. The one condition: make sure you
+actually understand every line of code and the underlying theory behind it, not just
+paste-and-run. That understanding is what carries over — it's what you'll actually need
+for any future task, and it's what will be asked about directly in the upcoming round.
 
 ---
 

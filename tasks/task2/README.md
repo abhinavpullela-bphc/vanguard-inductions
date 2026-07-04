@@ -1,5 +1,7 @@
 # Task 2: Taming the Noise (1D Kalman Filter)
 
+**Points: 25** · **Deadline: 31st July, 11:59 PM**
+
 ## The Problem
 
 Our rover is traversing rough, rocky terrain. The vibrations are intense, and our raw
@@ -28,7 +30,7 @@ the chaos.
 
 ## Helpful Resources
 
-* [kalmanfilter.net — 1D Kalman Filter walkthrough](https://www.kalmanfilter.net/kalman1d.html)
+* [kalmanfilter.net — Kalman Filter Tutorial](https://kalmanfilter.net/kalman-filter-tutorial.html)
 * [How a Kalman Filter Works, in Pictures](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
 
 ## Working in Docker
