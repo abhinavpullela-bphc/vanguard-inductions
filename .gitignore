@@ -1,0 +1,14 @@
+# ROS 2 / colcon build artifacts — never commit these
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+*.swp
