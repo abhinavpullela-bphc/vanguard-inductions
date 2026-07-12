@@ -1,0 +1,41 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Global Options:
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Plane Cell Count: 10
+      Cell Size: 0.1
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Enabled: true
+      Description Topic:
+        Value: /robot_description
+      Visual Enabled: true
+    - Class: rviz_default_plugins/Marker
+      Name: Target
+      Enabled: true
+      Topic:
+        Value: /target_marker
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 1.1
+      Focal Point:
+        X: 0.13
+        Y: 0.06
+        Z: 0.38
+      Pitch: 0.2
+      Yaw: 0.75
+Window Geometry:
+  X: 60
+  Y: 30
+  Width: 1700
+  Height: 880
+  Hide Left Dock: false
+  Hide Right Dock: true
